@@ -1,0 +1,154 @@
+iter=50 ObjVal=0.00336476
+iter=51 ObjVal=0.00336306
+iter=52 ObjVal=0.00336306
+iter=53 ObjVal=0.00336306
+iter=54 ObjVal=0.00336306
+iter=55 ObjVal=0.00336306
+iter=56 ObjVal=0.00335672
+iter=57 ObjVal=0.00335638
+iter=58 ObjVal=0.00335531
+iter=59 ObjVal=0.00335531
+iter=60 ObjVal=0.00334228
+iter=61 ObjVal=0.00334228
+iter=62 ObjVal=0.00334228
+iter=63 ObjVal=0.00333561
+iter=64 ObjVal=0.00333538
+iter=65 ObjVal=0.00333006
+iter=66 ObjVal=0.00330231
+iter=67 ObjVal=0.00330049
+iter=68 ObjVal=0.00330044
+iter=69 ObjVal=0.00329404
+iter=70 ObjVal=0.00329225
+iter=71 ObjVal=0.00329225
+iter=72 ObjVal=0.00329097
+iter=73 ObjVal=0.00329005
+iter=74 ObjVal=0.00328609
+iter=75 ObjVal=0.00327906
+iter=76 ObjVal=0.00327613
+iter=77 ObjVal=0.00327522
+iter=78 ObjVal=0.00326634
+iter=79 ObjVal=0.00326634
+iter=80 ObjVal=0.00326634
+iter=81 ObjVal=0.00326136
+iter=82 ObjVal=0.00326136
+iter=83 ObjVal=0.00326136
+iter=84 ObjVal=0.00325593
+iter=85 ObjVal=0.0032496
+iter=86 ObjVal=0.00323122
+iter=87 ObjVal=0.00323122
+iter=88 ObjVal=0.00323122
+iter=89 ObjVal=0.00323122
+iter=90 ObjVal=0.003229
+iter=91 ObjVal=0.0032036
+iter=92 ObjVal=0.00314725
+iter=93 ObjVal=0.00314608
+iter=94 ObjVal=0.00314608
+iter=95 ObjVal=0.00311057
+iter=96 ObjVal=0.00310746
+iter=97 ObjVal=0.00310446
+iter=98 ObjVal=0.00310446
+iter=99 ObjVal=0.00310446
+iter=100 ObjVal=0.00310446
+
+Neural Network Training Starting (ABC):
+==========================================================================
+ LR: 0.001, Max Epochs: 150
+ 5 Input Neurons, 10 Hidden Neurons, 3 Output Neurons
+==========================================================================
+
+ACCIRACY
+Epoch :0 TSet Acc:22.4333%, MSE: 0.20673 GSet Acc:66.725%, MSE: 0.13352
+Epoch :1 TSet Acc:71.7167%, MSE: 0.128197 GSet Acc:72.125%, MSE: 0.130225
+Epoch :2 TSet Acc:73.6417%, MSE: 0.126055 GSet Acc:72.925%, MSE: 0.128365
+Epoch :3 TSet Acc:74.0917%, MSE: 0.124233 GSet Acc:73.1%, MSE: 0.126683
+Epoch :6 TSet Acc:74.75%, MSE: 0.122399 GSet Acc:74.15%, MSE: 0.125494
+Epoch :7 TSet Acc:75.075%, MSE: 0.122295 GSet Acc:74.15%, MSE: 0.125392
+Epoch :10 TSet Acc:75.9%, MSE: 0.122083 GSet Acc:75.55%, MSE: 0.125178
+Epoch :11 TSet Acc:76.2833%, MSE: 0.12203 GSet Acc:75.55%, MSE: 0.125122
+Epoch :77 TSet Acc:75.9833%, MSE: 0.118422 GSet Acc:75.3%, MSE: 0.120369
+Epoch :84 TSet Acc:75.5917%, MSE: 0.118191 GSet Acc:75%, MSE: 0.120064
+Epoch :100 TSet Acc:74.9917%, MSE: 0.117711 GSet Acc:74.525%, MSE: 0.119428
+Epoch :146 TSet Acc:74.3%, MSE: 0.116466 GSet Acc:74%, MSE: 0.117816
+
+Training Complete!!! - > Elapsed Epochs: 150
+ Validation Set Accuracy: 74.7
+ Validation Set MSE: 0.115673
+
+
+ Neural Network Training Starting(no ABC):
+==========================================================================
+ LR: 0.001, Momentum: 0.9, Max Epochs: 150
+ 5 Input Neurons, 10 Hidden Neurons, 3 Output Neurons
+==========================================================================
+
+Epoch :0 TSet Acc:73.5667%, MSE: 0.125393 GSet Acc:76.45%, MSE: 0.120202
+Epoch :1 TSet Acc:76.55%, MSE: 0.120888 GSet Acc:76.45%, MSE: 0.119152
+Epoch :4 TSet Acc:76.4%, MSE: 0.119143 GSet Acc:75.15%, MSE: 0.11783
+Epoch :5 TSet Acc:75.925%, MSE: 0.118908 GSet Acc:73.775%, MSE: 0.117603
+Epoch :7 TSet Acc:74.95%, MSE: 0.11851 GSet Acc:72.775%, MSE: 0.117092
+Epoch :12 TSet Acc:74.1833%, MSE: 0.117535 GSet Acc:73.05%, MSE: 0.116022
+Epoch :17 TSet Acc:73.9917%, MSE: 0.116481 GSet Acc:73.5%, MSE: 0.114976
+Epoch :24 TSet Acc:73.525%, MSE: 0.115374 GSet Acc:73%, MSE: 0.113981
+Epoch :25 TSet Acc:73.5%, MSE: 0.115236 GSet Acc:73.025%, MSE: 0.113871
+Epoch :36 TSet Acc:73.4%, MSE: 0.113899 GSet Acc:72.9%, MSE: 0.112866
+Epoch :37 TSet Acc:73.375%, MSE: 0.113798 GSet Acc:73.025%, MSE: 0.112792
+Epoch :51 TSet Acc:73.4583%, MSE: 0.112611 GSet Acc:74.025%, MSE: 0.111943
+Epoch :53 TSet Acc:73.4583%, MSE: 0.112464 GSet Acc:74%, MSE: 0.111823
+Epoch :72 TSet Acc:73.1667%, MSE: 0.111022 GSet Acc:72.9%, MSE: 0.110518
+Epoch :75 TSet Acc:73%, MSE: 0.11081 GSet Acc:72.675%, MSE: 0.110335
+Epoch :82 TSet Acc:72.7083%, MSE: 0.110379 GSet Acc:72%, MSE: 0.109976
+Epoch :113 TSet Acc:72.5583%, MSE: 0.109162 GSet Acc:70.95%, MSE: 0.108915
+Epoch :121 TSet Acc:72.625%, MSE: 0.108897 GSet Acc:71.05%, MSE: 0.108663
+Epoch :129 TSet Acc:72.7%, MSE: 0.108638 GSet Acc:71%, MSE: 0.108412
+Epoch :132 TSet Acc:72.7%, MSE: 0.10854 GSet Acc:71.05%, MSE: 0.108321
+
+Training Complete!!! - > Elapsed Epochs: 150
+ Validation Set Accuracy: 71.25
+ Validation Set MSE: 0.112054
+
+
+ Neural Network Training Starting (original):
+==========================================================================
+ LR: 0.001, Momentum: 0.9, Max Epochs: 150
+ 16 Input Neurons, 10 Hidden Neurons, 3 Output Neurons
+==========================================================================
+
+Epoch :0 TSet Acc:72.0333%, MSE: 0.117256 GSet Acc:62.875%, MSE: 0.107281
+Epoch :1 TSet Acc:66.6667%, MSE: 0.102799 GSet Acc:58.975%, MSE: 0.0973233
+Epoch :2 TSet Acc:63.7917%, MSE: 0.0941145 GSet Acc:58.875%, MSE: 0.0890045
+Epoch :3 TSet Acc:63.75%, MSE: 0.0874516 GSet Acc:60.8%, MSE: 0.0823947
+Epoch :4 TSet Acc:64.6833%, MSE: 0.0823847 GSet Acc:62.6%, MSE: 0.0772817
+Epoch :5 TSet Acc:65.925%, MSE: 0.0782439 GSet Acc:64.725%, MSE: 0.0730394
+Epoch :6 TSet Acc:67.3167%, MSE: 0.0745637 GSet Acc:66.675%, MSE: 0.0696359
+Epoch :7 TSet Acc:68.5417%, MSE: 0.0712391 GSet Acc:67.525%, MSE: 0.0668455
+Epoch :8 TSet Acc:69.525%, MSE: 0.0683236 GSet Acc:68.575%, MSE: 0.0644547
+Epoch :9 TSet Acc:70.9833%, MSE: 0.0657253 GSet Acc:69.65%, MSE: 0.062372
+Epoch :10 TSet Acc:71.8083%, MSE: 0.0636742 GSet Acc:70.525%, MSE: 0.0607288
+Epoch :11 TSet Acc:72.4917%, MSE: 0.062113 GSet Acc:71.2%, MSE: 0.0594046
+Epoch :13 TSet Acc:73.25%, MSE: 0.0598137 GSet Acc:72.025%, MSE: 0.057272
+Epoch :16 TSet Acc:74.4917%, MSE: 0.05718 GSet Acc:73.05%, MSE: 0.0545568
+Epoch :19 TSet Acc:75.2%, MSE: 0.0548552 GSet Acc:74.4%, MSE: 0.0521271
+Epoch :22 TSet Acc:75.6167%, MSE: 0.0527049 GSet Acc:75.175%, MSE: 0.0497779
+Epoch :24 TSet Acc:76.1833%, MSE: 0.051368 GSet Acc:75.475%, MSE: 0.0480807
+Epoch :26 TSet Acc:76.7917%, MSE: 0.0500366 GSet Acc:76.375%, MSE: 0.0464075
+Epoch :27 TSet Acc:77.1%, MSE: 0.0493885 GSet Acc:76.75%, MSE: 0.0456429
+Epoch :28 TSet Acc:77.4167%, MSE: 0.0487431 GSet Acc:77.175%, MSE: 0.0449388
+Epoch :31 TSet Acc:78.075%, MSE: 0.0467716 GSet Acc:77.825%, MSE: 0.0433758
+Epoch :33 TSet Acc:78.5667%, MSE: 0.0455441 GSet Acc:78.1%, MSE: 0.0424955
+Epoch :34 TSet Acc:79.025%, MSE: 0.0449914 GSet Acc:78.55%, MSE: 0.0420045
+Epoch :35 TSet Acc:79.5333%, MSE: 0.0444781 GSet Acc:79.15%, MSE: 0.0415822
+Epoch :37 TSet Acc:80.2333%, MSE: 0.0435805 GSet Acc:80.175%, MSE: 0.0409686
+Epoch :40 TSet Acc:81.1%, MSE: 0.0425179 GSet Acc:81.025%, MSE: 0.040343
+Epoch :45 TSet Acc:82.1583%, MSE: 0.04123 GSet Acc:81.85%, MSE: 0.0395522
+Epoch :47 TSet Acc:82.4083%, MSE: 0.0408596 GSet Acc:82.175%, MSE: 0.0392825
+Epoch :53 TSet Acc:83.0083%, MSE: 0.0400614 GSet Acc:82.775%, MSE: 0.0384756
+Epoch :55 TSet Acc:83.1417%, MSE: 0.0398491 GSet Acc:83.025%, MSE: 0.038216
+Epoch :70 TSet Acc:84.0083%, MSE: 0.0387416 GSet Acc:83.75%, MSE: 0.0369423
+Epoch :82 TSet Acc:84.475%, MSE: 0.0383019 GSet Acc:84.05%, MSE: 0.0362644
+Epoch :102 TSet Acc:84.9833%, MSE: 0.0375809 GSet Acc:85.05%, MSE: 0.0354087
+Epoch :105 TSet Acc:85.0417%, MSE: 0.0374978 GSet Acc:85.225%, MSE: 0.0352695
+Epoch :147 TSet Acc:86.025%, MSE: 0.0361754 GSet Acc:85.775%, MSE: 0.0352493
+
+Training Complete!!! - > Elapsed Epochs: 150
+ Validation Set Accuracy: 84.8
+ Validation Set MSE: 0.035767
